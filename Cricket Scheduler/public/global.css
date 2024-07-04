@@ -1,0 +1,28 @@
+
+header.navigation_bar{
+
+}
+nav.nav_bar{
+    background-color: rgb(24, 179, 99);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+ul.nav_content{
+    display: flex;
+    list-style-type:none;
+}
+li.nav_content{
+    margin-left: 40px;
+}
+li.nav_item a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+li.nav_item a:hover{
+    color: yellow;
+}
+

@@ -1,0 +1,27 @@
+div.main{
+    display: flex;
+    flex-direction: column;
+}
+
+div.match_display{
+    margin-top: 20px;
+    border:1.5px solid grey;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey ;
+    
+}
+div.match_team{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.match_time_date{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.venue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

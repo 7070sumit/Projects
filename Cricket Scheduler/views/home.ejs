@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/home.css">
+</head>
+
+<body>
+    <header class="navigation_bar">
+        <nav class="nav_bar">
+            <ul class="nav_content">
+                <li class="nav_item"><a href="/home">Home</a></li>
+                <li class="nav_item"><a href="/add-game">Add Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <% if (data.team1.length>0) { %>
+    <div class="main">
+        <div class="container">
+            <% for(let i=0;i<data.team1.length;i++) {%>
+                <div class="match_display">
+                    <div class="match_team">
+                        <h1><%= data.team1[i]%></h1>
+                        <h1>VS</h1>
+                        <h1><%= data.team2[i]%></h1>
+                    </div>
+                    <div class="match_time_date">
+                        <h1>Date: <%= data.date[i]%></h1>
+                        <h1>Time: <%= data.time[i]%></h1>
+                    </div>
+                    <div class="venue">
+                        <h1>Venue: <%= data.venue[i]%></h1>
+                    </div>
+                    
+                </div>
+                <%}%>
+        </div>
+    </div>
+    <%} else {%>
+        <h1>No games added yet</h1>
+        <%}%>
+   
+
+</body>
+
+</html>
