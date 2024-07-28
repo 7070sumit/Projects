@@ -54,8 +54,9 @@ function Cart() {
                             </ul>
                         </div>
                     </div>
-                    <div className='flex items-center gap-x-3 hidden md:hidden lg:block'>
-                            <div>
+                    <div className='flex hidden items-center md:hidden lg:block'>
+                        <div className='flex items-center justify-center gap-x-3 '>
+                        <div>
                             <button 
                                 className='text-5xl'
                                 >-</button>
@@ -68,6 +69,9 @@ function Cart() {
                                 className='text-5xl'
                                 >+</button>
                             </div>
+
+                        </div>
+                            
                     </div>
                     <div className='flex items-center justify-center text-2xl hidden md:hidden lg:block'>
                        <h1><span className='line-through'>N</span> 1,199</h1>
@@ -102,8 +106,9 @@ function Cart() {
                             </ul>
                         </div>
                     </div>
-                    <div className='flex items-center gap-x-3 hidden md:hidden lg:block'>
-                            <div>
+                    <div className='flex hidden items-center md:hidden lg:block'>
+                        <div className='flex items-center justify-center gap-x-3 '>
+                        <div>
                             <button 
                                 className='text-5xl'
                                 >-</button>
@@ -116,6 +121,9 @@ function Cart() {
                                 className='text-5xl'
                                 >+</button>
                             </div>
+
+                        </div>
+                            
                     </div>
                     <div className='flex items-center justify-center text-2xl hidden md:hidden lg:block'>
                        <h1><span className='line-through'>N</span> 1,599</h1>
