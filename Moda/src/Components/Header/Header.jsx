@@ -259,13 +259,22 @@ function Header() {
 
 
             {isMenuOpen ? (
-                <ul className={` md:hidden flex flex-col items-center justify-center text-base font-medium gap-2 `}
+                <ul className={`bg-white pt-4 -mt-5 md:hidden flex flex-col items-center justify-center text-base font-medium gap-2 `}
                 >
                     <li
                         className='hover:text-[#ed165f] duration-75'
                     >
                         <NavLink
-                            to='#'
+                            to='/'
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+                    <li
+                        className='hover:text-[#ed165f] duration-75'
+                    >
+                        <NavLink
+                            to='/women'
                         >
                             Women
                         </NavLink>
@@ -274,34 +283,17 @@ function Header() {
                         className='hover:text-[#ed165f] duration-75'
                     >
                         <NavLink
-                            to='#'
+                            to='/girls'
                         >
                             Girls
                         </NavLink>
                     </li>
+                    
                     <li
                         className='hover:text-[#ed165f] duration-75'
                     >
                         <NavLink
-                            to='#'
-                        >
-                            Blog
-                        </NavLink>
-                    </li>
-                    <li
-                        className='hover:text-[#ed165f] duration-75'
-                    >
-                        <NavLink
-                            to='#'
-                        >
-                            Gifts
-                        </NavLink>
-                    </li>
-                    <li
-                        className='hover:text-[#ed165f] duration-75'
-                    >
-                        <NavLink
-                            to='#'
+                            to='/about'
                         >
                             About
                         </NavLink>
@@ -310,7 +302,7 @@ function Header() {
                         className='hover:text-[#ed165f] duration-75'
                     >
                         <NavLink
-                            to='#'
+                            to='/sale'
                         >
                             Sale
                         </NavLink>
