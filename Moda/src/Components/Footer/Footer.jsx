@@ -98,6 +98,9 @@ function Footer() {
         <h1
           className='hover:text-[#ed165f] duration-100'
         >modafashion@mail.com</h1>
+        <h1 className='text-cyan-800'>
+        © 2024 @Sumit Kumar | All Rights Reserved
+        </h1>
       </div>
     </div>
   )
