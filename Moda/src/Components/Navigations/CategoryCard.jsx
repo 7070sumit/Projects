@@ -44,7 +44,7 @@ function CategoryCard({data}) {
       }
 
   return (
-    <div className='m-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-5'>
+    <div className='m-5 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-5'>
     {data.map((card, index) => (
       <Card key={index} {...card} />
     ))}

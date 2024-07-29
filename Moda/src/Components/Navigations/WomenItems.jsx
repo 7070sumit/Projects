@@ -33,7 +33,6 @@ function WomenItems() {
 
           <div className='grid grids-cols-2 gap-5'>
             <CategoryCard data={data2.products}/>
-
           </div>
         </div>
         
