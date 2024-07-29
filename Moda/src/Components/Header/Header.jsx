@@ -4,6 +4,7 @@ import Women from './Women'
 import Blog from './Blog'
 import Girls from './Girls'
 import Sale from './Sale'
+import Offer from './Offer'
 
 
 function Header() {
@@ -32,7 +33,10 @@ function Header() {
 
     return (
         <>
-            <div className='flex flex-col'>
+            <div>
+                <Offer/>
+            </div>
+            <div className='flex flex-col sticky top-0 backdrop-sepia-0 z-10'>
                 <div className='mb-5 flex items-center justify-between h-16 shadow-md bg-white shadow-xl'>
                     <div className='hidden md:block'>
                         <ul className='ml-5 flex gap-5 text-base font-medium'>
